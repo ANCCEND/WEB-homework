@@ -5,9 +5,10 @@ body{
 .rhine-lab{
     position: fixed;
     width: 15vw;
-    height: 10vh;
+    height: 6.5vw;
     margin: 40px 60px;
     color: rgb(0, 0, 0,0.9);
+    border-left: 2px solid black;
 }
 
 .line1{
@@ -36,6 +37,38 @@ body{
     color: rgb(0, 0, 0,0.8);
 }
 
-.welcome{
-    font-size: medium;
+.line4{
+    position: fixed;
+    height: 25vw;
+    padding: 20px;
+    border-left: 1px solid black;
+    margin-left: 60px;
+    bottom: 70px;
+}
+
+.WELCOME{
+    position: fixed;
+    height: 20vw;
+    bottom: 100px;
+    padding: 0px;
+    border-left: 1px solid black;
+    margin-left: 60px;
+}
+
+.welcome-1{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px 0px 0px 8px;
+}
+
+.welcome-2{
+    background-color: black;
+    color: rgb(243, 243, 223);
+    margin: 5px 0px 0px ;
+}
+
+.logo1{
+    width: 200px;
+    margin: 0px;
+    background-color: black;
 }
