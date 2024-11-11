@@ -49,6 +49,7 @@ body{
 .WELCOME{
     position: fixed;
     height: 20vw;
+    width: 12vw;
     bottom: 100px;
     padding: 0px;
     border-left: 1px solid black;
@@ -63,12 +64,57 @@ body{
 
 .welcome-2{
     background-color: black;
-    color: rgb(243, 243, 223);
+    color: #F0EFEA;
+
     margin: 5px 0px 0px ;
 }
 
 .logo1{
-    width: 200px;
+    width: 12vw;
     margin: 0px;
     background-color: black;
 }
+
+.content{
+    position: fixed;
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+    width: 15vw;
+    height: 20vw;
+    gap: 20px;
+    right: 5vw;
+    bottom: 16vw;
+}
+
+.content button{
+    background-color: transparent;
+    height: 5vw;
+    width: 12vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.content button:hover{
+    color: rgb(219, 191, 156);
+}
+
+.index{
+    border: none;
+}
+
+.overview{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 0;
+    border-left: 0;
+}
+
+.department{
+    border: none;
+}
+
