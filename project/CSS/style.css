@@ -7,24 +7,25 @@ body{
     width: 15vw;
     height: 10vh;
     margin: 40px 60px;
-    color: rgb(0, 0, 0,0.8);
+    color: rgb(0, 0, 0,0.9);
 }
 
 .line1{
     font-size: 2vw;
+    font-weight: 700;
     padding: 3px 5px;
     margin: 0%;
 }
 
 .line2{
-    font-size: 0.75vw;
+    font-size: 0.8vw;
     padding: 2px 5px;
     margin: 0%;
 }
 
 .line3{
-    font-size: 1.55vw;
-    padding: 1px 5px;
+    font-size: 1.5vw;
+    padding: 1px 10px;
     margin: 0%;
 }
 
@@ -32,5 +33,9 @@ body{
     position: fixed;
     bottom: 0;
     right: 20px;
-    color: rgb(0, 0, 0,0.6);
+    color: rgb(0, 0, 0,0.8);
+}
+
+.welcome{
+    font-size: medium;
 }
