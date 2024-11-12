@@ -91,7 +91,7 @@ body{
     background-color: transparent;
     height: 5vw;
     width: 12vw;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Bebas Neue', Times, serif;
     font-size: 1.5vw;
     padding: 0;
     margin: 0;
@@ -100,11 +100,12 @@ body{
 }
 
 .content button:hover{
-    color: rgb(219, 191, 156);
+    color: rgb(187, 152, 109);
 }
 
 .index{
     border: none;
+    color: rgb(187, 152, 109);
 }
 
 .overview{
@@ -116,5 +117,10 @@ body{
 
 .department{
     border: none;
+}
+
+a{
+    padding: 0;
+    margin: 0;
 }
 

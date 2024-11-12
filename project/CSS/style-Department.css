@@ -1,0 +1,56 @@
+body{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.rhine-lab{
+    position: fixed;
+    width: 15vw;
+    height: 6.5vw;
+    margin: 40px 60px;
+    color: rgb(0, 0, 0,0.9);
+    border-left: 2px solid black;
+}
+
+.line1{
+    font-size: 2vw;
+    font-weight: 700;
+    padding: 3px 5px;
+    margin: 0%;
+}
+
+.line2{
+    font-size: 0.8vw;
+    padding: 2px 5px;
+    margin: 0%;
+}
+
+.line3{
+    font-size: 1.5vw;
+    padding: 1px 10px;
+    margin: 0%;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    color: rgb(0, 0, 0,0.8);
+}
+
+.logo-black{
+    position: fixed;
+    width: 5.5vw;
+    bottom: 50px;
+    right: 80px;
+}
+
+.radius{
+    position: fixed;
+    width: 80vw;
+    top: -14vw;
+    left: -50vw;
+}
+
