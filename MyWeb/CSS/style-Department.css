@@ -1,3 +1,16 @@
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(207, 192, 175);
+    border-radius: 3px;
+}
+
 body{
     background-size: cover;
     background-position: center;
@@ -52,17 +65,17 @@ body{
     display: flex;
     gap: 0;
     flex-direction: column;
-    width: 15vw;
+    width: 12vw;
     height: 20vw;
     gap: 20px;
-    right: 5vw;
-    bottom: 16vw;
+    right: 6vw;
+    bottom: 37vh;
 }
 
 .content button{
     background-color: transparent;
     height: 5vw;
-    width: 14vw;
+    width: 13vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5vw;
     padding: 0;
@@ -127,19 +140,26 @@ h2{
 
 .ls div{
     margin: 1.9vw 1vw;
+    border-collapse: collapse;
+    overflow-y: auto;
 }
 
 .ls p{
     font-size: 120%;
     font-weight: 500;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 .sci{
+    height: 25vh;
+    margin: 0;
     padding-left: 1vw;
     border-left: 1px solid black;
 }
 
 .aff{
+    height: 23vh;
     padding-left: 1vw;
     border-left: 1px solid black;
 }
@@ -160,3 +180,19 @@ a:hover{
     color: rgb(138, 90, 26);
 }
 
+img{
+    width: 100%;
+}
+
+.image{
+    display: flex;
+    width: 24vw;
+}
+
+.img1{
+    width: 50%;
+}
+
+.img2{
+    width: 50%;
+}
