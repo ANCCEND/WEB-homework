@@ -1,12 +1,8 @@
-@font-face {
-    font-family: BEBAS-NEUE;
-    src: url(FONT/BebasNeue-Regular.ttf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body{
+    background-size: cover;
+    background-position: center;
     background-attachment: fixed;
+    
 }
 
 .rhine-lab{
@@ -44,42 +40,11 @@ body{
     color: rgb(0, 0, 0,0.8);
 }
 
-.line4{
+.logo-black{
     position: fixed;
-    height: 25vw;
-    padding: 20px;
-    border-left: 1px solid black;
-    margin-left: 60px;
-    bottom: 70px;
-}
-
-.WELCOME{
-    position: fixed;
-    height: 20vw;
-    width: 12vw;
-    bottom: 100px;
-    padding: 0px;
-    border-left: 1px solid black;
-    margin-left: 60px;
-}
-
-.welcome-1{
-    font-size: 180%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0px 0px 9px 8px;
-}
-
-.welcome-2{
-    background-color: black;
-    color: #F0EFEA;
-
-    margin: 5px 0px 0px ;
-}
-
-.logo1{
-    width: 12vw;
-    margin: 0px;
-    background-color: black;
+    width: 5.5vw;
+    bottom: 50px;
+    right: 80px;
 }
 
 .content{
@@ -112,7 +77,6 @@ body{
 
 .index{
     border: none;
-    color: rgb(187, 152, 109);
     border-bottom: 1px solid black;
 }
 
@@ -128,11 +92,71 @@ body{
 
 .department{
     border: none;
+    color: rgb(187, 152, 109);
     border-bottom: 1px solid black;
 }
 
-a{
-    padding: 0;
+.all{
+    position: fixed;
+    top: 10vw;
+    left: 5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h2{
+    position: relative;
+    left: 2vw;
+    height: 50vh;
+    width: 20vw;
+    border-left: 2px solid black;
+}
+
+h2{
+    padding: 1.5vw 1vw 0 1vw;
     margin: 0;
+    margin-bottom: 9.5vw;
+}
+
+.second{
+    display: flex;
+}
+
+.ls{
+    width: 30vw;
+}
+
+.ls div{
+    margin: 1.9vw 1vw;
+}
+
+.ls p{
+    font-size: 120%;
+    font-weight: 500;
+}
+
+.sci{
+    padding-left: 1vw;
+    border-left: 1px solid black;
+}
+
+.aff{
+    padding-left: 1vw;
+    border-left: 1px solid black;
+}
+
+a{
+    transition: 0.2s;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: rgb(138, 90, 26);
+}
+
+a:hover{
+    color: rgb(138, 90, 26);
 }
 
