@@ -1,8 +1,5 @@
 body{
     background-color: #F0EFEA;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 .rhine-lab{
@@ -33,8 +30,6 @@ body{
     margin: 0%;
 }
 
-
-
 .bottom{
     position: fixed;
     bottom: 0;
@@ -49,65 +44,6 @@ body{
     right: 80px;
 }
 
-.title{
-    position: relative;
-    width: 18vw;
-    top: 12.5vw;
-    left: 60px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 270%;
-    border-bottom: 3px solid black;
-
-}
-
-.overview-m{
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    height: 65%;
-    top: 18vw;
-    left: 90px;
-    padding-right: 4%;
-    
-}
-
-.overview p{
-    position: relative;
-    top: 24%;
-}
-
-.comment{
-    position: relative;
-    font-size: small;
-    margin: 5% 2%;
-}
-
-.slideshow {
-    position: fixed;
-    left: 40%;
-    top: 25%;
-    display: grid;
-    grid-template-columns: repeat(2, 20vw);
-    grid-template-rows: repeat(2,15vw);
-    gap: 15px;
-    justify-content: center;
-    border-left: 2px solid black;
-    
-}
-
-.slideshow img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    box-shadow: 2px 2px 20px rgba(0,0,0,0.8);
-    transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-
-.img1:hover{
-    transform: scale(1.05);
-}
-
 .content{
     position: fixed;
     display: flex;
@@ -116,14 +52,14 @@ body{
     width: 15vw;
     height: 20vw;
     gap: 20px;
-    right: 2vw;
+    right: 3vw;
     bottom: 16vw;
 }
 
 .content button{
     background-color: transparent;
     height: 5vw;
-    width: 12vw;
+    width: 14vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5vw;
     padding: 0;
@@ -142,7 +78,6 @@ body{
 }
 
 .overview{
-    color: rgb(187, 152, 109);
     border: none;
     border-bottom: 1px solid black;
 }
@@ -150,6 +85,7 @@ body{
 .history{
     border: none;
     border-bottom: 1px solid black;
+    color: rgb(187, 152, 109);
 }
 
 .department{
@@ -157,3 +93,66 @@ body{
     border-bottom: 1px solid black;
 }
 
+.title{
+    position: relative;
+    width: 13vw;
+    top: 11vw;
+    left: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 270%;
+    border-bottom: 3px solid black;
+
+}
+
+.ls-1{
+    position: fixed;
+    width: 28%;
+    height: 10vw;
+    top: 17vw;
+    left: 70px;
+
+}
+
+table p{
+    padding: 0;
+    margin: 0;
+}
+
+.ls-1 th{
+    padding: 0;
+    margin: 0;
+    width: 4vw;
+}
+
+.ls-1 td{
+    padding: 0.1vw;
+    border-bottom: 0.8px solid black;
+}
+
+.files-effect{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    left: -25px;
+}
+
+.ls-2{
+    position: relative;
+    top: 4vw;
+    width: 48%;
+    left: 32%;
+}
+
+.ls-2 td{
+    border-bottom: 0.8px solid black ;
+    padding-bottom: 15px;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: rgb(138, 90, 26);
+}
