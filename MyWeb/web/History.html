@@ -43,6 +43,10 @@
         <a href="Department.html">
             <button class="department">Department <span style="font-weight: 500;">部门</span></button>
         </a>
+
+        <a href="Section.html">
+            <button class="department">Section <span style="font-weight: 500;">科</span></button>
+        </a>
     </div>
     <h1 class="title">HISTORY</h1>
     <div class="ls">
@@ -146,6 +150,26 @@
             </table>
         </div>
     </div>
-
+    <script>
+        let hasScrolled = false;
+    
+        window.addEventListener('wheel', function(event) {
+          if (hasScrolled) return;
+    
+          if (event.deltaY < 0) {
+            hasScrolled = true;
+            setTimeout(() => {
+              window.location.href = "Overview.html";
+            }, 300);
+          }
+          
+          else if (event.deltaY > 0) {
+            hasScrolled = true;
+            setTimeout(() => {
+              window.location.href = "Department.html";
+            }, 300);
+          }
+        });
+      </script>
 </body>
 </html>
