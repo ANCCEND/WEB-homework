@@ -122,15 +122,28 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.title{
+    position: relative;
+    top: 3.5vh;
+}
+
+h1{
+    font-size: 2.5vw;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
 .h2{
     position: relative;
-    left: 2vw;
+    left: 2.5vw;
     height: 50vh;
     width: 20vw;
     border-left: 2px solid black;
 }
 
 h2{
+    font-size: 1.5vw;
     padding: 1.5vw 1vw 0 1vw;
     margin: 0;
     margin-bottom: 9.5vw;
@@ -138,6 +151,8 @@ h2{
 
 .second{
     display: flex;
+    position: relative;
+    top: 3.5vh;
 }
 
 .ls{
@@ -151,7 +166,7 @@ h2{
 }
 
 .ls p{
-    font-size: 120%;
+    font-size: 1.2vw;
     font-weight: 500;
     padding-top: 0;
     margin-top: 0;

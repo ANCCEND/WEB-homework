@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,7 @@
     <link rel="stylesheet" href="../CSS/style-History.css">
     <link rel="icon" href="../image/Logo_莱茵生命.png" type="image/png">
     <style>
-        body{
+        body {
             background-image: url(../image/Overview背景.png);
             background-attachment: fixed;
             background-position: center;
@@ -16,22 +17,23 @@
     </style>
 
 </head>
+
 <body>
     <div class="rhine-lab">
         <p class="line1">RHINE LAB</p>
-        <p class="line2">SYNTHESIZE    INFORMATION</p>
-        <p class="line3">ANALYSIS   <span style="font-weight: 550;">OS</span></p>
+        <p class="line2">SYNTHESIZE INFORMATION</p>
+        <p class="line3">ANALYSIS <span style="font-weight: 550;">OS</span></p>
     </div>
     <div>
         <p class="bottom">POWERED BY <span style="font-weight: 600;">RHINE LAB</span></p>
         <img class="logo-black" src="../image/logo-black.png" alt="logo">
     </div>
     <div class="content">
-        
+
         <a href="../index.html">
             <button class="index">Index <span style="font-weight: 500;">索引</span></button>
         </a>
-    
+
         <a href="Overview.html">
             <button class="overview">Overview <span style="font-weight: 500;">概述</span></button>
         </a>
@@ -39,16 +41,16 @@
         <a href="History.html">
             <button class="history">History <span style="font-weight: 500;">历史</span></button>
         </a>
-        
+
         <a href="Department.html">
             <button class="department">Department <span style="font-weight: 500;">部门</span></button>
         </a>
 
-        <a href="Section.html">
-            <button class="department">Section <span style="font-weight: 500;">科</span></button>
+        <a href="Information.html">
+            <button class="section">Information <span style="font-weight: 500;">资料</span></button>
         </a>
     </div>
-    <h1 class="title">HISTORY</h1>
+    <p class="title">HISTORY</p>
     <div class="ls">
         <div class="t1">
             <table class="ls-1">
@@ -100,7 +102,7 @@
                             <p><b>特里蒙弧光事件</b>，克丽斯腾利用能量井击穿天空的阻隔层，独自搭乘万星园飞入星空。此后，莱茵生命迎来重大人事调整。</p>
                         </td>
                     </tr>
-    
+
                 </tbody>
             </table>
         </div>
@@ -108,7 +110,8 @@
             <table class="ls-2">
                 <tbody>
                     <tr>
-                        <th><a href="https://terra-historicus.hypergryph.com/comic/1421" target="_blank">炎魔事件（Diɑbolic Crisis）</a></th>
+                        <th><a href="https://terra-historicus.hypergryph.com/comic/1421" target="_blank">炎魔事件（Diɑbolic
+                                Crisis）</a></th>
                         <td>
                             <p>编号C-023，处于高度机密状态。</p>
                             <p>哥伦比亚制药公司海顿制药曾在■■■■年■月17日对实验体伊芙利特进行非法的人体嵌合实验，但实验失败，实
@@ -150,26 +153,6 @@
             </table>
         </div>
     </div>
-    <script>
-        let hasScrolled = false;
-    
-        window.addEventListener('wheel', function(event) {
-          if (hasScrolled) return;
-    
-          if (event.deltaY < 0) {
-            hasScrolled = true;
-            setTimeout(() => {
-              window.location.href = "Overview.html";
-            }, 300);
-          }
-          
-          else if (event.deltaY > 0) {
-            hasScrolled = true;
-            setTimeout(() => {
-              window.location.href = "Department.html";
-            }, 300);
-          }
-        });
-      </script>
 </body>
+
 </html>

@@ -1,5 +1,8 @@
 body{
+    background-image: url("../image/operator背景.png");
     background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .rhine-lab{
