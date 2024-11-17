@@ -1,3 +1,28 @@
+::-webkit-scrollbar {
+    width: 15px;
+ 
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(248, 223, 195);
+    border-radius: 10px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(187, 152, 109);
+    width: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-image: url("../image/operator背景.png");
     background-attachment: fixed;
@@ -100,4 +125,72 @@ body{
     border: none;
     color: rgb(187, 152, 109);
     border-bottom: 1px solid black;
+}
+
+.title{
+    position: relative;
+    width: 13vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.7vw;
+    font-weight: 700;
+    border-bottom: 3px solid black;
+}
+
+.operator{
+    position: relative;
+    width: 55vw;
+    left: 18vw;
+    top: 15vh;
+    margin-bottom: 10vh;
+}
+
+.operator img{
+    width: 70%;  
+}
+
+.name{
+    font-size: 1.7vw;
+    font-weight: 700;
+}
+
+.operator div{
+    margin: 0 0 6vh 1vw;
+}
+
+.end{
+    padding-bottom: 7vh;
+}
+
+.ls{
+    position: fixed;
+    top: 35vh;
+    left: 80px;
+    width: 10vw;
+}
+
+table{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+td{
+    padding: 0.3vw;
+    font-size: 1vw;
+    transition: text-decoration 0.3s ease-in-out;
+}
+
+td::before{
+    content: "●";
+    font-size: 0.7em;
+    margin-right: 8px;
+    color: black;
+}
+
+td:hover{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
